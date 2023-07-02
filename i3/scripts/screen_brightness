@@ -1,0 +1,9 @@
+#!/bin/bash
+
+max=$(brightnessctl m)
+current=$(brightnessctl g)
+percent=%
+
+echo $(( (current*100)/$max ))%
+echo $(( (current*100)/$max ))%
+exit 0

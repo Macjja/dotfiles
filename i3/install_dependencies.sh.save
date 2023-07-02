@@ -1,0 +1,8 @@
+# This is to install the dependencies for the i3 config (so it can work properly)
+
+
+# Used in main config / i3 scripts (doesn't come with i3 preinstalled)
+sudo dnf install i3blocks rofi xset picom nitrogen xrandr brightnessctl acpi perl -y
+
+# uses xrandr to control monitor
+# perl is for the battery script, as well as acpi
